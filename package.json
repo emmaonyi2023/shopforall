@@ -1,0 +1,29 @@
+{
+  "name": "shopforall",
+  "version": "1.0.0",
+  "description": "e-commerce site using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmaonyi2023/shopforall.git"
+  },
+  "author": "Emmanuel Okereke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmaonyi2023/shopforall/issues"
+  },
+  "homepage": "https://github.com/emmaonyi2023/shopforall#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  }
+}
